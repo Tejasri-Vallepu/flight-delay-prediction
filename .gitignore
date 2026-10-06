@@ -12,9 +12,7 @@ venv/
 # Environment variables
 .env
 
-# Trained models
-models/*.joblib
-models/*.pkl
+
 
 # Large raw datasets
 data/raw/*.csv
@@ -23,9 +21,4 @@ data/raw/*.csv
 data/processed/*.csv
 
 
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.env
-.DS_Store
-Thumbs.db
+_
