@@ -1,7 +1,14 @@
-# ============================================================
-# ✈️ FLIGHT DELAY PREDICTION & ANALYTICS
-# Baby Pink Professional Streamlit Dashboard
-# ============================================================
+import os
+import sys
+
+# Add project root to Python path
+BASE_DIR = os.path.dirname(
+    os.path.dirname(
+        os.path.abspath(__file__)
+    )
+)
+
+sys.path.insert(0, BASE_DIR)
 
 import streamlit as st
 
